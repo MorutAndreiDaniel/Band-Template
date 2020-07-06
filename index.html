@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Band</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    </head>
+    <body>
+        <!--Header-->
+        <div class="container-fluid bg">
+            <nav class="navbar navbar-expand-md navbar-light sticky-top pt-4">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse bg-warning" id="navbarResponsive">
+                        <a class="navbar-brand pl-4 font-weight-bold text-uppercase" href="#">The Band</a>
+                        <ul class="navbar-nav ml-auto nav pr-3 p-4 font-weight-bolder">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="gallery.html">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="events.html">Events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="hero-color">
+                <div class="hero-text">
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dignissimos.</h4>
+                    <button type="button" class="btn btn-outline-dark btn-lg font-weight-bolder" data-toggle="modal" data-target="#myModal">More</button>
+                </div>
+            </div>
+                    <div class="modal fade" id="myModal">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h3 class="modal-title">
+                                        Announcement
+                                    </h3>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                                <div class="modal-body">
+                                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, molestiae. 20-10-2020</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-warning" data-dismiss="modal">CLose</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+
+        <!--About us-->
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="far fa-arrow-alt-circle-up"></i></button>
+        <div class="container-fluid about">
+            <div class="row padding">
+                <div class="col-lg-6 p-3">
+                    <img src="Images/guitarist.jpg" class="img-fluid rounded-circle" alt="guitarist">
+                </div>
+                <div class="col-lg-6 p-4 d-flex flex-column justify-content-center text-justify">
+                    <h2>Guitarist</h2>
+                    <p class="lead p-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <p class="font-weight-light p-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat iste laboriosam quaerat vero ad error veniam, voluptate minima esse sint?</p>
+                </div>
+            </div>
+            <div class="row padding drummer-section">
+                <div class="col-lg-6 p-4 d-flex flex-column justify-content-center text-justify text-right">
+                    <h2>Drummer</h2>
+                    <p class="lead p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo.</p>
+                    <p class="font-weight-light p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quos tenetur itaque nobis quo atque voluptatem.</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="Images/drummer2.jpg" class="img-fluid rounded" alt="drummer">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid about-section">
+            <div class="overlay-color">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 p-4 d-flex flex-column justify-content-center text-justify">
+                        <h2 class="pl-4">Lorem ipsum dolor sit amet consectetur.</h2>
+                        <p class="lead pl-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis saepe quis quisquam animi consectetur.</p>
+                    </div>
+                    <div class="col-lg-6 d-flex justify-content-center">
+                        <button type="button" id="myButton" class="btn btn-outline-light">Read more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Events-->
+        <div class="container events">
+            <h2 class="text-center">Events</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 p-2 d-flex flex-column justify-content-center text-justify">
+                    <h4 class="bg-warning p-2 w-50 text-center text-dark heading">10-09-2020</h4>
+                    <h5 class="text-warning pt-2 font-weight-bolder">Concert 1</h6>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, in nemo?</p>
+                    <button type="button" class="btn btn-primary pt-2 w-25">More</button>
+                </div>
+                <div class="col-lg-4 col-md-6 p-2 d-flex flex-column justify-content-center text-justify">
+                    <h4 class="bg-warning p-2 w-50 text-center text-dark heading2">12-10-2020</h4>
+                    <h5 class="text-warning pt-2 font-weight-bolder">Concert 2</h6>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, in nemo?</p>
+                    <button type="button" class="btn btn-primary pt-2 w-25">More</button>
+                </div>
+                <div class="col-lg-4 col-md-6 p-2 d-flex flex-column justify-content-center text-justify">
+                    <h4 class="bg-warning p-2 w-50 text-center text-dark heading3">10-12-2020</h4>
+                    <h5 class="text-warning pt-2 font-weight-bolder">Concert 3</h6>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, in nemo?</p>
+                    <button type="button" class="btn btn-primary pt-2 w-25">More</button>
+                </div>
+            </div>
+        </div>
+        <!--Footer-->
+        <div class="container-fluid bg-dark footer">
+            <ul class="nav justify-content-center">
+                <li class="nav-item active">
+                  <a class="nav-link text-warning" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-warning" href="about.html">About us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-warning" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-warning" href="events.html">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-warning" href="contact.html">Contact</a>
+                  </li>
+              </ul> 
+              <p class="lead text-center text-warning">&copy Morut Andrei-Daniel 2020. All rights reserved.</p>
+              <div class="text-center icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+              </div>
+        </div>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="./index.js"></script>
+    </body>
+
+</html>
